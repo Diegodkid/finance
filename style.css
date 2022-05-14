@@ -1,0 +1,129 @@
+/* ==== GLOBAL ====== */
+:root {
+    --dark-blue: #363f5f;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: min(90vw, 800px);
+}
+
+/* ==== TITLES ====== */
+h2 {
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--dark-blue);
+}
+
+/* ==== HEADER ====== */
+header {
+    background: #3fb8af;
+    padding: 2rem 0 10rem;
+    text-align: center;
+}
+
+#logo {
+    color: #3C4852;
+    font-weight: 100;
+}
+
+/* ==== BALANCE ====== */
+#balance {
+    margin-top: -8rem;
+}
+
+#balance h2 {
+    color: #fff;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+/* ==== CARDS ====== */
+.card {
+    background: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: .25rem;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: var(--dark-blue);
+}
+
+.card h3 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.card p {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.card.total {
+    background: #39C46C;
+    color: #fff;
+}
+
+/* ==== TRANSACTION ====== */
+
+#data-table {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+    color: #969cb3;
+}
+
+table thead tr th:first-child,
+table tbody tr td:first-child {
+    border-radius: .25rem;
+}
+
+table th {
+    background: white;
+    opacity: 0.6;
+    font-weight: normal;
+    text-align: left;
+    padding: 1rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+table tr {
+    opacity: 0.7;
+}
+
+table tr:hover {
+    opacity: 1;
+}
+
+table td {
+    background: #fff;
+    padding: 1rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+td.description {
+    color: var(--dark-blue);
+}
+
+td.expense {
+    color: #EB4038;
+}
+
+td.income {
+   color: #12a545;
+}
+/* ==== FOOTER ====== */
+footer {
+    text-align: center;
+    padding: 4rem 0 2rem;
+    color: var(--dark-blue);
+    opacity: 0.6;
+}
