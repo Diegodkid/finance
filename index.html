@@ -1,79 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
-		<link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>dev.finance</title>
-</head>
+  </head>
 
-<body>
-	<header>
-		<h1 id="logo">dev.finance</h1>
-	</header>
+  <body>
+    <header>
+      <h1 id="logo">dev.finance</h1>
+    </header>
 
-	<main class="container">
-		<section id="balance">
-			<h2>Balanço</h2>
+    <main class="container">
+      <section id="balance">
+        <h2 class="sr-only">Balanço</h2>
 
-			<div class="card">
-				<h3>Entradas</h3>
-				<p>R$ 5.000,00</p>
-			</div>
-	
-			<div class="card">
-				<h3>Saídas</h3>
-				<p>R$ 2.000,00</p>
-			</div>
+        <div class="card">
+          <h3>
+            <span>Entradas</span>
+            <img src="./assets/income.svg" alt="imagem de entradas" />
+          </h3>
+          <p>R$ 5.000,00</p>
+        </div>
 
-			<div class="card total">
-				<h3>Total</h3>
-				<p>R$ 3.000,00</p>
-			</div>	
-		</section>
+        <div class="card">
+          <h3>
+            <span>Saídas</span>
+            <img src="./assets/expense.svg" alt="imagem de saidas" />
+          </h3>
+          <p>R$ 2.000,00</p>
+        </div>
 
-		<section id="transaction">
-			<h2>Transações</h2>
+        <div class="card total">
+          <h3>
+            <span>Total</span>
+            <img src="./assets/total.svg" alt="imagem de total" />
+          </h3>
+          <p>R$ 3.000,00</p>
+        </div>
+      </section>
 
-			<table id="data-table">
+      <section id="transaction">
+        <h2 class="sr-only">Transações</h2>
 
-				<thead>
-					<tr>
-						<th>Descrição</th>
-						<th>Valor</th>
-						<th>Data</th>
-					</tr>
-				</thead>
+        <a href="#" class="button new">+ Nova Transação</a>
 
-				<tbody>
-					<tr>
-						<td class="description">Luz</td>
-						<td class="expense">R$ -500,00</td>
-						<td class="date">23/01/2022</td>
-					</tr>
-					<tr>
-						<td class="description">Criação Website</td>
-						<td class="income">R$ 5.000,00</td>
-						<td class="date">23/01/2022</td>
-					</tr>
-					<tr>
-						<td class="description">Internet</td>
-						<td class="expense">R$ -200,00</td>
-						<td class="date">23/01/2022</td>
-					</tr>
-				</tbody>
-			</table>
-		</section>
+        <table id="data-table">
+          <thead>
+            <tr>
+              <th>Descrição</th>
+              <th>Valor</th>
+              <th>Data</th>
+              <th></th>
+            </tr>
+          </thead>
 
-	</main>
+          <tbody>
+            <tr>
+              <td class="description">Luz</td>
+              <td class="expense">R$ -500,00</td>
+              <td class="date">23/01/2022</td>
+              <td>
+                <img src="./assets/minus.svg" alt="remover transação" />
+              </td>
+            </tr>
+            <tr>
+              <td class="description">Criação Website</td>
+              <td class="income">R$ 5.000,00</td>
+              <td class="date">23/01/2022</td>
+              <td>
+                <img src="./assets/minus.svg" alt="remover transação" />
+              </td>
+            </tr>
+            <tr>
+              <td class="description">Internet</td>
+              <td class="expense">R$ -200,00</td>
+              <td class="date">23/01/2022</td>
+              <td>
+                <img src="./assets/minus.svg" alt="remover transação" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
 
-	<footer>
-		<h1 id="logo">dev.finance</h1>
-	</footer>
-
-</body>
+    <footer>
+      <h1 id="logo">dev.finance</h1>
+    </footer>
+  </body>
 </html>
