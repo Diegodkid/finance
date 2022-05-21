@@ -1,9 +1,5 @@
 # finance
 
-<h1 align="center">
-  <img title="finances" src=".github/logo.svg" width="220px" />
-</h1>
-
 ![Screenshot from 2022-05-21 17-20-16](https://user-images.githubusercontent.com/90665510/169669416-5e721dbd-9ada-452c-ba4d-5f8e8b6fbf13.png)
 
 <p align="center">
