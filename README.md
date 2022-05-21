@@ -31,7 +31,7 @@ O Finances é uma aplicação de controle financeiro, onde é possível cadastra
 
 ##  Site
 
-Você pode visualizar o layout do projeto através [desse link](finance.netlify.app).
+Você pode visualizar o layout do projeto através [desse link](https://finance.netlify.app/).
 
 ## 🔖 Layout
 
