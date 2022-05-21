@@ -29,10 +29,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Finances é uma aplicação de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰
 
-##  Site
-
-Você pode visualizar o layout do projeto através [desse link](https://finance.netlify.app/).
-
 ## 🔖 Layout
 
 Você pode visitar e usar o site através [desse link](https://www.figma.com/file/7Vu9DzUaCZIV4nibzkjgB4/dev.finance%24-Maratona-Discover). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
@@ -43,5 +39,6 @@ Você pode visitar e usar o site através [desse link](https://www.figma.com/fil
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
+* **Link para o projeto** - [Finances]([https://quizzical-franklin-cb31c0.netlify.app](https://finance.netlify.app/))
 
 Feito by Diegodkid :wave: 
