@@ -1,8 +1,6 @@
-# finance
+# finances
 
-<h1 align="center">
-  <img alt="dev.finances" title="dev.finances" src=".github/logo.svg" width="220px" />
-</h1>
+![Screenshot from 2022-05-21 17-20-16](https://user-images.githubusercontent.com/90665510/169669416-5e721dbd-9ada-452c-ba4d-5f8e8b6fbf13.png)
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -19,10 +17,6 @@
 
 <br>
 
-<p align="center">
-  <img alt="dev.finances" src=".github/devfinances.png" width="100%">
-</p>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -33,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O dev.finances é uma aplicação de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰
+O Finances é uma aplicação de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰
 
 ## 🔖 Layout
 
@@ -45,4 +39,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 
-Feito by Diegodkid :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Feito by Diegodkid :wave: 
