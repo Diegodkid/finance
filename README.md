@@ -21,10 +21,6 @@
 
 <br>
 
-<p align="center">
-  <img alt="dev.finances" src=".github/devfinances.png" width="100%">
-</p>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -47,4 +43,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 
-Feito by Diegodkid :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Feito by Diegodkid :wave: 
